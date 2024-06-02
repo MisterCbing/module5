@@ -1,11 +1,11 @@
 class House():
     def __init__(self):
-        self.number_of_floors = 0
+        self.numberOfFloors = 0
 
     def setNewNumberOfFloors(self, floors):
-        self.number_of_floors = floors
-        print(self.number_of_floors)
+        self.numberOfFloors = floors
+        print(self.numberOfFloors)
 
 Izumrud = House()
 Izumrud.setNewNumberOfFloors(10)
-print(Izumrud.number_of_floors)
+print(Izumrud.numberOfFloors)
