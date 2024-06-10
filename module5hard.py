@@ -5,7 +5,7 @@ class User:
         self.age = age
 
     def __str__(self):
-        return nickname
+        return self.nickname
 
 class Video:
     def __init__(self, title, duration, time_now, adult_mode):
@@ -31,6 +31,6 @@ class UrTube:
     #     if login in self.users:
             
 
-basa = UrTube
-basa.register(basa,'John',1234, 38)
-print(basa.users)
+hosting = UrTube()
+hosting.register('John',1234, 38)
+print(hosting.users[0])
